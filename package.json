@@ -1,0 +1,28 @@
+{
+  "name": "cypress-split-example",
+  "version": "1.0.0",
+  "description": "An example repo using the cypress-split package to run tests in parallel on a multiple machines.",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/testingnotebook/cypress-split-example.git"
+  },
+  "keywords": [
+    "cypress",
+    "parallel"
+  ],
+  "author": "Aaron Williams",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/testingnotebook/cypress-split-example/issues"
+  },
+  "homepage": "https://github.com/testingnotebook/cypress-split-example#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "cypress": "^13.3.0",
+    "cypress-split": "^1.4.0"
+  }
+}
