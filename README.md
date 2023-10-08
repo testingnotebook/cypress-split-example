@@ -1,6 +1,8 @@
 # cypress-split-example
 
-This project supports the following blog post https://testingnotebook.com/posts/running-cypress-tests-in-parallel-on-multiple-github-actions-agents/ which demonstrates how to run Cypress tests in parallel on multiple machines. Please click the link for more information.
+[![Cypress Tests](https://github.com/testingnotebook/cypress-split-example/actions/workflows/main.yml/badge.svg?branch=main)](https://github.com/testingnotebook/cypress-split-example/actions/workflows/main.yml)
+
+This project supports the following blog post https://www.testingnotebook.com/posts/running-cypress-tests-in-parallel-on-multiple-github-actions-agents/ which demonstrates how to run Cypress tests in parallel on multiple GitHub Actions Agents. Please click the link for more information.
 
 ## Clone project
 
@@ -20,8 +22,6 @@ npm i
 npm t
 ```
 
-## Run tests using Cypress-Parallel Package
+## Run tests using Cypress-split Plugin
 
-```bash
-npm run test:parallel
-```
+See the workflow in `.github/workflows` on how to do this as a GitHub Workflow.
