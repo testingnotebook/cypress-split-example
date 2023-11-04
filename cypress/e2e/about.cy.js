@@ -3,6 +3,6 @@ describe('about', () => {
     cy.visit('/')
     cy.get('[data-testid="About"]').click()
     cy.get('[data-testid="about"]').should('contain', 'About Aaron Williams')
-    cy.get('[data-testid="avatar1"]').should('be.visible')
+    cy.get('[data-testid="avatar"]').should('be.visible')
   })
 })
