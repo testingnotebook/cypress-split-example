@@ -17,3 +17,9 @@ jobs:
         env:
           SPLIT: ${{ strategy.job-total }}
           SPLIT_INDEX: ${{ strategy.job-index }}
+      - name: Upload screenshots
+        uses: actions/upload-artifact@v3.1.3
+        if: failure()
+        with:
+          name: cypress-screenshots
+          path: cypress/screenshots
