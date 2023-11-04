@@ -2,7 +2,7 @@
 
 [![Cypress Tests](https://github.com/testingnotebook/cypress-split-example/actions/workflows/main.yml/badge.svg?branch=main)](https://github.com/testingnotebook/cypress-split-example/actions/workflows/main.yml)
 
-This project supports the following blog post https://www.testingnotebook.com/posts/running-cypress-tests-in-parallel-on-multiple-github-actions-agents/ which demonstrates how to run Cypress tests in parallel on multiple GitHub Actions Agents. Please click the link for more information.
+This project supports the following blog post https://www.testingnotebook.com/posts/running-cypress-tests-in-parallel-on-multiple-github-actions-containers/ which demonstrates how to run Cypress tests in parallel on multiple GitHub Actions Agents. Please click the link for more information.
 
 ## Clone project
 
