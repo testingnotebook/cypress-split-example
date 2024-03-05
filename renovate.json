@@ -1,3 +1,6 @@
 {
-    "assignees": ["testingnotebook"]
+    "assignees": ["testingnotebook"],
+    "automerge": true,
+    "automergeType": "pr",
+    "requiredStatusChecks": ["Cypress Tests"]
 }
