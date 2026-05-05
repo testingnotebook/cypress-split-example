@@ -16,7 +16,7 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v6
       - name: Run Cypress tests
-        uses: cypress-io/github-action@v7.2.0
+        uses: cypress-io/github-action@v7.3.0
         env:
           SPLIT: ${{ strategy.job-total }}
           SPLIT_INDEX: ${{ strategy.job-index }}
